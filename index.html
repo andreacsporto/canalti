@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CANAL TI</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                  <img id="logo" src="img/LOGO.png" alt="CANALTI"> CANAL TI
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link" id="home-menu" href="#">Início</span></a>
+                    <a class="nav-item nav-link" id="carrer-menu" href="#">Carreira</a>
+                    <a class="nav-item nav-link" id="courses-menu" href="#">Cursos</a>
+                    <a class="nav-item nav-link" id="tendencies-menu" href="#">Tendências</a>
+                    <a class="nav-item nav-link" id="contact-menu" href="#">Contato</a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </header>   
+        
+       
+    </header>
+    <main>
+        <div class="container-fluid">
+          <!-- slider -->
+          <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#mainSlider" data-slide-to="1"></li>
+              <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/tec4.webp" class="d-block w-100" alt="Carreira">
+                
+                <!-- tirar classe d-none -->
+    
+                <div class="carousel-caption d-md-block">
+                  <h1><a href= "#" id ="carrer-menu"> CARREIRA</a></h1>
+                    
+                  <p>Está pensando em ingressar na área? Um resumo das As 10 principais categorias de TI que estão em alta no mercado.</p>
+                  <a href="#" class="main-btn"  id="contact-menu">Deixe sua sugestão</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/TEC1.jpg" class="d-block w-100" alt="Cursos">
+                <div class="carousel-caption d-md-block">
+                  <h1>Quais os <a href="#" id= "courses-menu"> cursos</a>de gradução?</h5>
+                  <p>Um resumo dos cursos mais buscados.</p>
+                  <a href="#" class="main-btn" id="contact-menu">Deixe sua sugestão</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/tec3.jpg" class="d-block w-100" alt="Tendências">
+                <div class="carousel-caption d-md-block">
+                  <h1>Está buscando conhecer as principais<a href= "#" id = "tendencies-menu"> tendências</a> e oportunidades profissionais?</h1>
+                  <p>Tendências de mercado TI.</p>
+                  <a href="#" class="main-btn" id="contact-menu">Deixe sua sugestão</a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- Sobre a pagina carreira-->
+          <div id="carrer-area">
+            <div class="container">
+                <div class="row">
+                  <div class="col-12"> 
+                    <h3 class="main-title"></h3>
+                  </div>
+                  <div class="col-md-6">
+                    <img class="img/carreira" src="img/carreirati.jpg" alt="Carreira">
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="carrer-title">Carreiras de TI</h1>
+                    <h1>As 10 principais categorias de TI que estão em alta no mercado.
+                        O cenário que vivemos é um ambiente altamente propenso para o crescimento da carreira de profissionais desse setor. Essa afirmativa está diretamente relacionada à importância do departamento, seja pela segurança de informação, seja pela leitura de dados, infraestrutura, inovação, entre outros.
+                        Segundo uma pesquisa feita em 2018 pela Brasscom (Associação Brasileira das Empresas de Tecnologia da Informação e Comunicação), o déficit de profissionais da área deveria chegar a 750 mil até o presente ano.</h1>
+                        Para você entender quais são as oportunidades existentes nesse mercado, separando neste texto as 10 principais carreiras em TI.
+                        
+                        <h1>1. Cloud computing</h1>
+                        <p>A estratégia de tecnologias em nuvem hoje é, sem sombra de dúvidas, umas das mais eficientes utilizadas dentro do mercado, independentemente do segmento que está sendo aplicado. Com ela, pessoas conseguem compartilhar uma gama de informações, números e dados em tempo real, sem a ocupação de espaços físicos, o que otimiza processo e garante a segurança da informação.
+        
+                            Para a execução do cloud computing, são necessários profissionais que consigam acompanhar e garantir que o funcionamento dessa tecnologia seja eficiente para todos os envolvidos.
+                            
+                            Os arquitetos de nuvem, por exemplo, são as pessoas responsáveis pelo planejamento, pela implantação, pela gestão de TI e manutenção das ferramentas dos aplicativos em nuvem, além da mensuração dos resultados obtidos. Em decorrência do seu papel, ele deve ter conhecimentos operacionais, de rede, programação, sistema e segurança.
+                            
+                        </p>
+         
+                        <h1>2. Segurança da informação</h1>
+                        <p> Ainda a respeito do último item sinalizado no tópico anterior, a segurança da informação é um tema presente em qualquer organização e de extrema importância. Afinal, a proteção de rede, de sistemas e de dados empresariais, sejam eles dela mesmo ou de seus clientes, deve ser encarada como base para a sobrevivência do negócio.
+                        Os profissionais dessa área têm por objetivo garantir que todas as iniciativas corporativas sejam protegidas e que nenhum ataque hacker coloque em risco toda a base de dados e informações desse local.     
+                        É muito importante que ele se mantenha atualizado, conhecendo todas as novas diretrizes que serão fundamentais para atingir o seu escopo de trabalho. Outro viés da profissão é implementar e acompanhar políticas de segurança dentro da empresa.</p>
+                     
+                        <h1>3. IoT</h1>
+                      <p> IoT ou Internet of Things. Segundo a Oracle; A Internet das Coisas descreve a rede de objetos físicos —“coisas”— que são incorporados a sensores, software e outras tecnologias com o objetivo de conectar e trocar dados com outros dispositivos. e sistemas pela internet. Esses dispositivos variam de objetos domésticos comuns a ferramentas industriais sofisticadas. Com mais de 7 bilhões de dispositivos IoT conectados atualmente, os especialistas esperam que esse número aumente para 10 bilhões até 2020 e 22 bilhões até 2025. Só olhar para os carros conectados e você verá IoT e sua aplicabilidade em ação.
+                        A CCM possui clientes do segmento de agropecuária que já usufruem dessa tecnologia há anos. Colheitadeiras guiadas por GPS que reconhecem o melhor traçado de ruas para realizacar sua tarefa, ou sensores em milhares de peças que indicam tempo de uso, desgaste e indicam o melhor momento de tro. As aplicações em ambientes industriais, associadas a computação em nuvem, vem possibilitando a comunicação máquina a máquina (M2M) para obter automação e controle sem fio.
+                        Como na maioria das profissões ligadas as novas tecnologias não há uma formação acadêmica, porém os fortes investimentos esperados para a área abrem uma grande oportunidade para engenheiros, desenvolvedores e profissionais de redes.</p>
+                      
+                        <h1>4. Programação</h1>
+                     <p> Um dos maiores pilares da área de TI é a programação. A especialização nessa área contém diferentes diretrizes e caminhos a serem seguidos. A programação pode ser aplicada no desenvolvimento de softwares e outras soluções a serem empregadas, que visam a otimizar processos corporativos.
+                        Além disso, o programador pode ter como responsabilidade pensar na experiência dos usuários com serviços e soluções entregues para os clientes da marca. E a importância desse tema leva o profissional a acompanhar as tendências do mercado em que trabalha para garantir a boa experiência de consumo.
+                        Por fim, a programação pode ser enxergada de certa forma em praticamente todas as áreas de TI. Por isso, é importante que o profissional desse setor tenha entendimento a respeito. Algumas áreas, como cloud computing e segurança da informação, já mencionadas anteriormente, devem necessitar, em algum momento, da compreensão no assunto.      
+                    </p>
+                    <h1>5. Desenvolvedor</h1>
+                    <p>Em resumo “programador é aquele que escreve programas; desenvolver é aquele que desenvolve uma ideia ou solução, com a responsabilidade de projetar, desenvolver, implementar e testar soluções tecnológicas em sistemas de software, dispositivos móveis e web é do desenvolvedor. Tem um excelente artigo mostrando a distinção entre esses dois últimos. A sua formação em engenharia – ou ciência – da computação lhe permite saber como codificar e criar designs responsivos que otimizam a experiência dos usuários.Dessa maneira, é preciso que o desenvolvedor entenda das dores das pessoas que devem fazer o uso do seu produto final, sejam eles clientes ou colaboradores da mesma organização. É o exemplo de um desenvolvedor que entende que determinado software é responsável por criar o gargalo na execução de um processo no time de TI, prejudicando a gestão do tempo. Assim, ele terá como função otimizar, por meio de linguagens de programação, essa ferramenta ou, até mesmo, criar uma nova solução.</p>
+                    <h1>6. Inteligência artificial</h1>
+                    <p>Em termos mais simples, a inteligência artificial (IA) refere-se a sistemas ou máquinas que imitam a inteligência humana para executar tarefas e podem se aprimorar iterativamente com base nas informações que coletam. A IA se manifesta de várias formas. Alguns exemplos são:
+        
+                        • Os chatbots usam a IA para entender os problemas dos clientes mais rapidamente e fornecer respostas mais eficientes;
+                        
+                        • Os assistentes inteligentes usam a IA para analisar informações críticas de grandes conjuntos de dados de texto livre para melhorar a programação;
+                        
+                        • Os mecanismos de recomendação podem fornecer recomendações automatizadas para programas de TV com base nos hábitos de visualização dos usuários;
+                        
+                        O famoso AI, ou seja, a inteligência artificial já é uma realidade entre as empresas. E é por esse motivo que é necessário contar com especialistas desse ramo. Conhecido como engenheiro ou arquiteto de inteligência artificial, seu papel é garantir que sistemas e computadores consigam desenvolver sua “inteligência”, tudo a partir do cruzamento e da leitura de informações obtidas.
+                        
+                        Apesar de não existir hoje uma graduação específica, o profissional da área deve ter graduações como ciência da computação, estatística, matemática e engenharia. Essas formações são responsáveis por criar know-how em linguagem neutral, integração em inteligência, programação de aplicativos inteligentes e experiência em gerenciamento de mudanças.</p>
+                    <h1>7. Business intelligence</h1>
+                    <p>Nos dias de hoje, o business intelligence é utilizado como uma das melhores maneiras de auxiliar líderes na tomada de decisão, o que leva a empresa a crescer no mercado. Por essa razão, é tão importante que existam equipes especialistas em BI, que contam com graduações como sistema de informação e ciência da computação.
+        
+                    <h1>8. Especialista em dados e Big Data</h1>
+                    <p>A carreira de especialista em dados pode até gerar um pouco de confusão com a anterior, mas seu know-how na área é mais aprofundado. Isso porque esse profissional tem o objetivo conhecer e implementar políticas nos canais de coleta de dados e tratá-los para que eles sejam oferecidos para leitura. Com seu conhecimento na área de estatística e matemática, o também conhecido cientista de dados pode fazer a melhor leitura das informações que estão em mãos e auxiliar líderes e gestores nas tomadas de decisão.
+        
+                        Big data é um conjunto de dados maior e mais complexo, especialmente de novas fontes de dados. Esses conjuntos de dados são tão volumosos que o software tradicional de processamento de dados simplesmente não consegue gerenciá-los. No entanto, esses grandes volumes de dados podem ser usados para resolver problemas de negócios que você não conseguiria resolver antes. Os profissionais dessa área devem trabalhar o Volume de dados; a Velocidade com que são recebidos e administrados; a Variedade de tipos disponíveis como estruturados, não estruturados e metadados; seu Valor intrínseco e sua Veracidade. (5 Vs do Big Data).</p>
+                        As ferramentas com essa tecnologia levam todos os números, dados e informações existentes dentro e fora do mercado, processam e analisam de acordo com a necessidade. Além disso, a pessoa da área tem o trabalho de fazer um tratamento dos dados, para que eles sejam disponibilizados com fácil leitura, e entender sobre o mercado em que a empresa está inserida</p>
+                     <h1>9. Projetos</h1>  
+                     <p>O desenvolvimento de projetos é uma das áreas mais promissoras quando o assunto é carreiras em TI. Isso porque hoje as empresas estão voltadas para o desenvolvimento de projetos de inovação, além de que, na maioria das vezes, o conhecimento e as habilidades de tecnologia da informação estão envolvidos com as ideias desenvolvidas. Além de um profundo conhecimento em metodologia de gerenciamento de projetos e suas ferramentas como Kanban, Scrum, Lean e outras métodos ágeis.
+        
+                        Dessa maneira, o gerente projeto é a pessoa responsável por auxiliar na construção e maturação dos projetos, entendendo o que deve ser planejado, construir, testar e mensurar indicadores de desempenho e os resultados do planejamento proposto.</p>
+                       <h1>10. Suporte técnico</h1>
+                       <p>Apesar de o departamento de TI inicialmente ter o carácter de departamento de suporte técnico e melhoria de infraestrutura de sistema de informação e, durante um período, ter ganhado novas funções, a área de suporte técnico segue sendo de extrema importância para toda a organização.
+        
+                        Entretanto, hoje esse conjunto não tem a mesma visão de antigamente, de apenas corrigir problemas. A área de suporte técnico visa a otimizar os processos de uma organização, conhecendo quais são os processos que precisam ser reavaliados e desenvolvidos para alcançar melhores desempenhos.</p>
+                        
+        
+                  
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- Cursos de TI-->
+          <div id="courses-area">
+            <div class="container">
+                <h3 class="main-title"></h3>
+                </div>
+                <div class="col-md-4 courses-box">
+                  <i class="fas fa-mobile-alt"></i>
+                  <h4>Cursos </h4>
+                  <h1>Certo, agora que você já entendeu o que faz o setor de TI e por que investir nessa área do conhecimento é uma vantagem, confira agora os principais cursos que foram a Tecnologia da Informação:
+                    <h1>1. Engenharia da Computação</h1>
+                    <p>O curso de Engenharia da Computação é um bacharelado que tem duração média de cinco anos. 
+    
+                        Durante a formação, o aluno estuda e aprende os aspectos do desenvolvimento de computadores, incluindo softwares e hardwares.
+                        
+                        Embora seja capaz de trabalhar com as duas partes, geralmente é com hardwares que ele atua mais.
+                    </p>
+     
+                    <h1>2. Ciência da Computação</h1>
+                    <p> Outro bacharelado, com duração média de quatro anos, ele prepara profissionais aptos a analisar as necessidades dos usuários, desenvolver softwares e aplicativos, gerenciar equipes de criação e instalar sistemas de computação. 
+                        Mas a trilha principal de quem se forma em Ciência da Computação são os softwares e plataformas.</p>
+                    <h1>3. Sistemas de Informação</h1>
+                  <p>Já no curso de Sistemas de Informação, o aluno aprende a administrar fluxos de dados, projetar e desenvolver os sistemas de empresas diversas. 
+    
+                    O foco dessa carreira é na gestão de projetos, de processos e de pessoas. E, diferentemente das anteriores, a formação também é ofertada na modalidade de tecnólogo, além do bacharelado.</p>
+                    <h1>4. Análise e Desenvolvimento de Sistemas</h1>
+                 <p> Quem opta pelo curso de Análise e Desenvolvimento de Sistemas aprende a desenvolver, analisar, projetar, implementar e atualizar sistemas de informação para diversos setores de atividades. 
+    
+                    A formação pode ser encontrada em bacharelado, mas é mais comum com titulação tecnológica.      
+                </p>
+                <h1>5. Gestão em Tecnologia da Informação</h1>
+                <p>Temos também o curso de Gestão em Tecnologia da Informação, que capacita os profissionais para as funções técnicas, como as outras formações, mas tem ênfase, principalmente, em conceitos de administração.
+    
+                    É possível optar pelo bacharelado ou o tecnólogo.</p>
+                <h1>6. Redes de Computadores</h1>
+                <p>Enfim, também existe o curso de Rede de Computadores, que foram profissionais para lidar com as mudanças comportamentais causadas pela internet.
+    
+                    Dentre os conhecimentos adquiridos nesse curso estão o desenvolvimento de projetos e soluções como softwares e sistemas a fim de administrar informações importantes na era digital.</p>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tendencias -->
+          <div id="tendencies-area">
+            <div class="container">
+                <h1>Tendências</h1>
+                <p>A demandas por profissionais competentes que possam atuar no mercado de TI está crescendo cada vez mais. Isso porque a tecnologia está presente tanto no local de trabalho, quanto em casa, nos momentos de negociação e lazer.
+                    Portanto, diz-se que o mercado de TI é uma área aquecida e verdadeiramente promissora para quem ainda está decidindo qual carreira seguir. Dentro desta área, existem diversos eixos com oportunidades, que atendem às mais diversas atividades e gostos.
+                    
+                    Se você veio até este post porque quer se convencer de vez dos motivos para ingressar no mercado de TI, continue lendo! Vamos contar tudo que você precisa saber sobre como esse setor está hoje e suas principais tendências.
+                    
+                    Confira!
+                </p> 
+                 <h1> O desenvolvimento do mercado de TI</h1> 
+                 <p>   A TI já foi considerada uma atividade de suporte dentro de empresas, ou seja, apenas cuidar da manutenção de computadores, fazendo reparos quando algum problema surgisse ou a conexão com a internet caísse.
+                    
+                    Mas nas últimas décadas, temos passado por uma verdadeira transformação digital, que mudou a forma como os seres humanos se relacionam entre si e com a própria tecnologia.
+                    
+                    A frequência com que novos dispositivos são criados e rapidamente se tornam essenciais na rotina da sociedade, acabam fazendo com que, da mesma forma, mudanças nas relações e formas de trabalho sejam constantes.
+                    
+                    Ou seja, para que haja o melhor aproveitamento das possibilidades que essas novidades representam, é preciso contar com o apoio de profissionais que tenham domínio sobre elas e assim, possam trazer o melhor para o mercado de TI, tanto para benefício das pessoas quanto das empresas.
+                    
+                    Assim, o mercado de TI se mantém aquecido com diversas novas oportunidades de carreira para quem entenda os novos recursos que vão aparecendo. A carência de pessoas capacitadas faz com que a demanda seja bem positiva.
+                </p>
+                 <h1>   O cenário para o profissional de TI </h1>
+                 <p>   Os valores salariais de profissionais do mercado de TI, segundo o que pesquisas mostram, é muito satisfatório.
+                    
+                    De acordo com o site Glassdoor, especializado em satisfação com o trabalho, um analista de TI júnior, por exemplo, tem um salário inicial de cerca de 3 mil reais.
+                    
+                    Já para cargos mais altos e com mais tempo de experiência, dependendo da função exercida o salário mensal pode chegar até 35 mil reais em 2019, segundo levantamento realizado pela Exame.
+                    
+                    Em geral, o salário médio de um profissional de TI está em torno de 9 mil reais, segundo conclusões da plataforma de recrutamento trampos.co, divulgadas pela Época Negócios.
+                    
+                    Isso, é claro, exige que o profissional se dedique a uma boa qualificação, através de um curso de graduação e se possível, pós-graduação e certificações extracurriculares.
+                    
+                    O primordial para ser um excelente profissional e se destacar no mercado de TI é estar em constante processo de aprendizado, buscando sempre ter iniciativa, resiliência, aptidão, inteligência emocional e claro, comunicação interpessoal.
+                  </p>  
+                 <h1>  Principais tendências do mercado de TI </h1>
+                 <p>   Vejamos resumidamente alguns tópicos que compõe as tendências do mercado de TI atual e que são as principais responsáveis pelos novos fluxos de trabalho que essa área tem vivenciado:
+                  </p>  
+                <h1> Blockchain </h1> 
+                 <p>   A tecnologia do blockchain tem relação direta com o mercado financeiro e envolve transações de dinheiro virtual ou criptomoedas através de um sistema criptografado e considerado muito seguro. O Bitcoin é a criptomoeda mais famosa.
+                  </p>  
+                 <h1> Big Data </h1> 
+                <p>    O chamado Big Data é o grande volume de dados registrado pelas empresas diariamente em sua rede de computadores.A origem deles pode ser de registros de compras ou canais de atendimento digital, por exemplo.
+                 </p>   
+                 <h1> Internet das Coisas (IoT) </h1> 
+                 <p> A Internet das Coisas, ou Internet of Things (IoT), se baseia na fusão entre realidade e digital, fazendo com que os indivíduos possam estar em constante comunicação e interação, seja com outras pessoas ou objetos. 
+                    
+                    Ou seja, a relação de conexão entre aparelhos eletrônicos dentro de casa, por exemplo, com objetivo de facilitar as atividades rotineiras, é uma situação bem característica da IoT.
+                 </p>   
+                 <h1> Cloud computing </h1>
+                 <p> Cloud computing ou computação na nuvem é uma opção de armazenamento que está cada vez mais popular entre empresas, já que você utiliza um servidor para guardar os seus arquivos comerciais ou pessoais, através da conexão com a internet. 
+                    
+                    Essa tecnologia não só previne a perda dos dados, como também facilita seu compartilhamento e acesso entre colaboradores do negócio.
+                  </p>
+                 <h1>   Áreas com alta demanda no mercado de TI </h1>
+                 <p> Vejamos algumas cargos que em 2019 se destacaram pela alta procura por profissionais e que representam boas oportunidades para o futuro do mercado de TI:
+                 </p>  
+                 <H1>Especialista em Business Intelligence (BI) </H1> 
+                 <p>  Devido à alta competitividade entre corporações de mesmo segmento, as estratégias precisam ser pensadas de forma a trazerem resultados mais precisos.
+                    
+                    É pensando nisso que o profissional de BI tem sido tão importante. Ele, ao lidar com o Big Data, é um componente chave no processo de analisar e interpretar os dados que levarão à decisões mais assertivas para a empresa.
+                 </p>  
+                 <h1> Programador de front-end </h1> 
+                 <p> O programador de front-end é aquele profissional responsável pela experiência de visualização do usuário ao acessar determinado site. Ele é quem deve ser antenado sobre tudo que é há de mais recente no que diz respeito à agradar o usuário criando um site  visualmente agradável e também funcional.
+                    
+                    Esse profissional é ainda mais requisitado quando falamos em e-commerce, já que, nesse caso, praticamente toda a experiência de compra está no site.
+                 </p>   
+                 <h1> Profissional de suporte </h1>
+                 <p> O profissional de suporte, que atua como Service Desk ou Help Desk, continua sendo muito importante dentro do ambiente corporativo. Principalmente nos dias de hoje, em que o relacionamento entre empresas e clientes precisa de atenção extra.
+                    
+                    Esse profissional é o que tem mais contato com clientes, tanto internos, quanto externos, solucionando problemas técnicos. 
+                    
+                    Por ser uma ponte entre empresa e cliente, seu desempenho recebe atenção especial, e profissionais capacitados para agir em diferentes situações e com um perfil comunicativo são muito bem avaliados.
+                 </p>   
+                 <h1> Desenvolvedor full-stack </h1>
+                 <p>Esse profissional está em alta devido à necessidade de uma visão mais completa do sistema e também a uma flexibilidade.
+                    
+                    Atualmente, existem diferentes etapas de desenvolvimento, que vão do sistema do servidor ao software que auxilia na interface final, que será de fato visualizada pelo usuário.
+                    
+                    Esse desenvolvedor é capaz de lidar com todas essas fases complexas com excelência, o que faz dele um profissional completo e disputado pelas empresas.
+                 </p>   
+                 <h1> Especialista em Cloud Computing </h1>
+                 <p> Cloud Computing, como dissemos, é uma tendência forte no mercado de TI. 
+                    
+                    Dessa forma, o especialista da área deve ter todos os conhecimentos necessários para dominar essa tecnologia, se dedicando a atividades de planejamento, execução e direcionamento da capacidade de processamento, armazenamento e segurança de informações na nuvem. 
+                 </p>  
+                 <h1> Analista de segurança da informação </h1>
+                 <p> Este profissional é responsável por manter a segurança dos dados da empresa, gerenciando sistemas e toda a infraestrutura de TI de forma a eliminar riscos, colocando em prática ações que garantam a confidencialidade, integridade e ainda, disponibilidade dos dados.
+                    
+                    O analista também vem ganhando importância cada vez maior no mercado de TI, devido à necessidade de identificar ameaças e vulnerabilidades no sistema, realizar testes de invasão e definir uma política de segurança, antes que a empresa possa sofrer com ataques de hackers ou ser infectada por algum tipo de vírus, por exemplo.
+                    
+                    Esse foi nosso panorama sobre como está o mercado de TI atualmente. Entenda ainda por quais motivos nós da NetSupport nos destacamos nesse cenário!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </main>
+      <!-- Rodapé -->
+      <footer>
+        <div id="contact-area">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="main-title">Entre em contato conosco</h3>
+                </div>
+                <div class="col-md-4 contact-box">
+                  <i class="fas fa-phone"></i>
+                  <p><span class="contact-tile">Ligue para:</span> (48)99999-9999</p>
+                  <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+                </div>
+                <div class="col-md-4 contact-box">
+                  <i class="fas fa-envelope"></i>
+                  <p><span class="contact-tile">Envie um email:</span> contato@canalti.com.br</p>
+                </div>
+                <div class="col-md-6" id="msg-box">
+                  <p>Ou nos deixe uma mensagem:</p>
+                </div>
+                <div class="col-md-6" id="contact-form">
+                  <form action="">
+                    <input type="text" class="form-control" placeholder="E-mail" name="email">
+                    <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                    <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                    <input type="submit" class="main-btn">
+                  </form>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div id="copy-area">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                  <p>Desenvolvido por Andrea Cristina Soares Porto &copy; 2020</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Scripts do projeto -->
+      <script src="js/scripts.js"></script>
+    </body>
+    </html>
+
+</html>
